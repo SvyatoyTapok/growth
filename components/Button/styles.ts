@@ -3,7 +3,7 @@ import { StyleSheet } from "react-native"
 export default StyleSheet.create({
     container: {
         width: 300,
-        height: 40,
+        height: 46,
         alignSelf: 'center',
         justifyContent: 'center',
         borderRadius: 20,
@@ -16,9 +16,10 @@ export default StyleSheet.create({
         justifyContent: 'center',
     },
     titleText: {
+        marginLeft: 8,
         color: 'white',
         textAlign: 'center',
-        fontFamily: 'InterBold',
+        fontFamily: 'InterSemiBold',
         fontSize: 14,
     },
 })
