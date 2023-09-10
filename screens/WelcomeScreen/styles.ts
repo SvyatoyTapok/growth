@@ -6,10 +6,11 @@ export default StyleSheet.create({
         height: '100%',
     },
     subTitleContainer: {
-        marginTop: '94%',
         alignSelf: 'center',
-        justifyContent: 'center',
         width: 290,
+        position: 'absolute',
+        bottom: 0,
+        marginBottom: '5%',
     },
     subTitleText: {
         color: 'white',
