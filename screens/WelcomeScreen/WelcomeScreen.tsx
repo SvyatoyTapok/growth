@@ -15,7 +15,7 @@ function WelcomeScreen() {
                 <Text style={styles.subTitleText}>Congue malesuada in ac justo, a tristique leo massa. Arcu leo leo urna risus.</Text>
                 <View>
                     <Button onPress={() => navigation.navigate('Register1')} shadow={true} title='Get started' backgroundColor='#FF7966' fontColor={'#FFF'} />
-                    <Button onPress={() => { }} shadow={false} title='I have an account' backgroundColor='rgba(255, 255, 255, 0.10)' fontColor={'#FFF'} />
+                    <Button onPress={() => navigation.navigate('Login')} shadow={false} title='I have an account' backgroundColor='rgba(255, 255, 255, 0.10)' fontColor={'#FFF'} />
                 </View>
             </View>
         </ImageBackground>

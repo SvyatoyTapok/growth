@@ -6,7 +6,9 @@ import Button from '../../components/Button/Button';
 import Apple from '../../assets/Apple.svg'
 import FaceBook from '../../assets/Facebook.svg'
 import Google from '../../assets/Google.svg'
+import { useNavigation } from '@react-navigation/native';
 function Register1() {
+    const navigation = useNavigation();
     return (
         <>
             <Header />
@@ -47,7 +49,7 @@ function Register1() {
                     title={'Sign up with E-mail'}
                     backgroundColor={'rgba(255, 255, 255, 0.10)'}
                     shadow={false}
-                    onPress={() => { }}
+                    onPress={() => navigation.navigate('Register2')}
                     fontColor={'#FFF'}
                 />
                 <Text style={{ color: '#666680', fontFamily: 'InterRegular', width: '100%', textAlign: 'center', bottom: 0 }}>
